@@ -1,0 +1,12 @@
+---
+mcollective_agent_bolt_tasks::policy_default: deny
+mcollective_agent_bolt_tasks::config_name: choria
+mcollective_agent_bolt_tasks::server_files:
+ - agent/bolt_tasks.rb
+
+mcollective_agent_bolt_tasks::client_files:
+ - application/tasks.rb
+
+mcollective_agent_bolt_tasks::common_files:
+ - agent/bolt_tasks.ddl
+ - agent/bolt_tasks.json
